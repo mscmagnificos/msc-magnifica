@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f8ff;
+}
+
+#login, #app {
+  margin-top: 50px;
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 5px;
+}
+
+#gallery {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#gallery img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
