@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>MSC Magnifica 2026</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login">
+  <h2>Diario de a bordo 🚢</h2>
+  <input type="text" id="user" placeholder="Usuario">
+  <input type="password" id="pass" placeholder="Contraseña">
+  <button onclick="login()">Entrar</button>
+</div>
+
+<div id="app" style="display:none;">
+  <h1>MSC Magnifica - Verano 2026 🌊</h1>
+
+  <select id="stop">
+    <option value="barcelona">Barcelona</option>
+    <option value="marsella">Marsella</option>
+    <option value="napoles">Nápoles</option>
+    <option value="genova">Génova</option>
+  </select>
+
+  <input type="file" id="fileInput">
+  <button onclick="uploadImage()">Subir Foto</button>
+
+  <div id="gallery"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
